@@ -1,0 +1,14 @@
+.contentColor {
+    position: relative;
+}
+
+.contentColor::after {
+    content: "";
+    position: absolute;
+    top: 45;
+    left: 40%;
+    width: 50%;
+    height: 80%;
+    background-color:#BBF7D0; /* Replace with your desired background color */
+    z-index: -1;
+}
