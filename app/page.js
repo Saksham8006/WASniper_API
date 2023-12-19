@@ -24,12 +24,13 @@ const Page = () => {
       <div id="home">
         <Home />
       </div>
-      <div id="work">
-        <Work />
-      </div>
       <div id="codeeditor">
         <CodeEditor />
       </div>
+      <div id="work">
+        <Work />
+      </div>
+      
       <div id="usecases">
         <Usecases />
       </div>
