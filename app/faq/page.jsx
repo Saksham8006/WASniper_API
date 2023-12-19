@@ -77,7 +77,7 @@ const Section9 = () => {
 
                                         </p>
 
-                                        <p className="font-normal text-base leading-6 text-slate-800 mt-4 w-11/12">If you are looking to contact your customers via WhatsApp or build your own WhatsApp solution (whether it is a CRM/ERP system, a chatbot, or some other platform), UltraMsg will be your perfect choice.</p>
+                                        <p className="font-normal text-base leading-6 text-slate-800 mt-4 w-11/12">If you are looking to contact your customers via WhatsApp or build your own WhatsApp solution (whether it is a CRM/ERP system, a chatbot, or some other platform), WA Sniper will be your perfect choice.</p>
                                     </div>
                                 )}
                             </div>
@@ -197,7 +197,7 @@ const Section9 = () => {
             <div className='max-w-[1366px] mx-auto min-h-[60vh]'>
                 <h2 className='my-[25px] text-[28px] font-bold text-center'>Have Question? Get in touch!</h2>
                 <p className='my-[5px] text-[17px] font-medium text-center'>We always listen to our clients.</p>
-                <p className='my-[5px] text-[17px] font-medium text-center'>That’s why Ultramsg is friendly and easy to use.</p>
+                <p className='my-[5px] text-[17px] font-medium text-center'>That’s why WA Sniper is friendly and easy to use.</p>
                 <p className='my-[5px] text-[17px] font-medium text-center'>If you have any wishes for the functionality, talk to us, so you can help develop the service.</p>
 
                 <div className='flex justify-center my-[20px]'

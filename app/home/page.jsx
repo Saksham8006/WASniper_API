@@ -2,7 +2,7 @@ import { IoDocumentOutline } from "react-icons/io5";
 import { LuPlane } from "react-icons/lu";
 
 const Home = () => {
-    let backgroundImageUrl = "https://ultramsg.com/home/assets/images/header.png"
+    let backgroundImageUrl = "/images/homebg.webp"
 
     return (
 

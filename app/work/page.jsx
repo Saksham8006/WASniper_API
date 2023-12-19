@@ -21,7 +21,7 @@ const Work = () => {
         setCurrent(current + 1);
 
         setShow(true)
-        console.log("currentnext", current)
+        // console.log("currentnext", current)
         
     };
 
@@ -32,13 +32,13 @@ const Work = () => {
 
         if(current === 2){
             setCurrent(2 - 1);
-            console.log("Hihhhhhhhhhhhhhhhhhhhhh")
+            // console.log("Hihhhhhhhhhhhhhhhhhhhhh")
         }else{
             setCurrent(current - 1);
             setShow(false)
         }
 
-       console.log("currentprev", current)
+    //    console.log("currentprev", current)
       
         
     };
