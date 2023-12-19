@@ -151,7 +151,7 @@ const Navbar = () => {
           <img
             width="130"
             height="16"
-            src="https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1.png"
+            src="./images/WaSniperLogo.webp"
             alt="WA Sniper"
             className="custom-logo style-svg entered lazyloaded"
           />

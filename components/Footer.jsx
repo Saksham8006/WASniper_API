@@ -47,22 +47,23 @@ const Footer = () => {
 
   return (
     <>
-     
+
       <footer className="bg-neutral-100 text-center text-neutral-600  lg:text-left">
-        
+
         {/* Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. */}
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="flex flex-col lg:flex-row  justify-around">
             {/* TW elements section */}
             <div className="lg:w-[30%]">
               <h2 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-                <a
-                  href="/"
-                  className="flex items-center space-x-3 rtl:space-x-reverse"
-                >
-                  <img width="130" height="16" src="https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1.png" class="custom-logo style-svg entered lazyloaded"
-                    alt="WA Sniper" decoding="async" fetchpriority="high" data-lazy-srcset="https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1.png 3680w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-300x83.png 300w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-1024x283.png 1024w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-768x212.png 768w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-1536x424.png 1536w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-2048x565.png 2048w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-600x166.png 600w" data-lazy-sizes="(max-width: 3680px) 100vw, 3680px" data-lazy-src="https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1.png" data-ll-status="loaded" sizes="(max-width: 3680px) 100vw, 3680px" srcset="https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1.png 3680w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-300x83.png 300w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-1024x283.png 1024w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-768x212.png 768w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-1536x424.png 1536w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-2048x565.png 2048w, https://wasniper.com/wp-content/uploads/2022/12/c2130b70992c27c8759d106616d61573-1-1-600x166.png 600w" />
-
+                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                  <img
+                    width="130"
+                    height="16"
+                    src="./images/WaSniperLogo.webp"
+                    alt="WA Sniper"
+                    className="custom-logo style-svg entered lazyloaded"
+                  />
                 </a>
 
               </h2>
@@ -91,14 +92,14 @@ const Footer = () => {
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
                   <h5 onClick={() => scrollToSection('faq')}>FAQ</h5>
                 </span>
-               
+
               </div>
               {/* Useful links section */}
               <div className=" flex flex-col text-start">
                 <h4 className="mb-4   text-green-600 justify-center font-extrabold uppercase md:justify-start text-[18px]">
                   Useful links
                 </h4>
-               
+
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
                   <h5 onClick={() => scrollToSection('codeeditor')}> API DOCUMENTATION</h5>
                 </span>
@@ -111,9 +112,9 @@ const Footer = () => {
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
                   <h5 onClick={() => scrollToSection('help')}>HELP</h5>
                 </span>
-                 
-               
-                
+
+
+
               </div>
               {/* Contact section */}
               <div className=" flex flex-col  text-start">
