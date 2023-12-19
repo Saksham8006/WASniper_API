@@ -1,58 +1,71 @@
 /* MultiStepProgressBar.css */
 
 .multistep-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.multistep-progresssss {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .multistep-progresssss {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .step {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #ccc;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #ccc;
-    font-size: 18px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .line {
-    width: 4px;
-    height: 110px; /* Adjust the height based on your design */
-    background-color: rgb(124, 151, 124);
-    transition: background-color 0.3s;
-  }
-  
-  .step.active {
-    background-color: #4caf50;
-    color: white;
-    border-color: #4caf50;
-  }
-  
-  .button-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 8px;
-  }
-  
-  .button {
-    margin-top: 8px;
-    cursor: pointer;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 8px;
-    font-size: 16px;
-  }
-  
-  .button:disabled {
-    background-color: #ccc;
-    color: #555;
-    cursor: not-allowed;
-  }
-  
+}
+
+.step {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #ccc;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.line {
+  width: 4px;
+  height: 110px;
+  /* Adjust the height based on your design */
+  background-color: rgb(124, 151, 124);
+  transition: background-color 0.3s;
+}
+
+.step.active {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.button {
+  margin-top: 8px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}

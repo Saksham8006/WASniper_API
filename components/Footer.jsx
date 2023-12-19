@@ -1,13 +1,53 @@
+"use client"
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdSupportAgent } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
 import { IoHomeSharp } from "react-icons/io5";
 import Link from "next/link";
+import { useState, useRef, useEffect } from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const phoneNumber = '+919069825148';
   const supportNumber = "+918888999682"
+
+
+  const [open, setOpen] = useState(false);
+  const navbarRef = useRef(null);
+
+  const handleToggle = () => {
+    setOpen(!open);
+    console.log('clicked');
+  };
+
+  // Function to scroll to a section
+  const scrollToSection = (id) => {
+    const targetElement = document.getElementById(id);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+      setOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    // Add an event listener to close the menu when clicking outside the navbar
+    const handleClickOutside = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [navbarRef]);
+
+
+
+
   return (
     <>
       {/* TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com */}
@@ -114,52 +154,41 @@ const Footer = () => {
                 <h6 className="mb-4  text-green-600 justify-center text-start font-extrabold uppercase md:justify-start text-[18px]">
                   WASniper
                 </h6>
-                <p className="mb-4">
-                  <Link href="/" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    HOME
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link href="/codeeditor" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    API
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link href="#" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    CONTACT US
-                  </Link>
-                </p>
-                <p>
-                  <Link href="/faq" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    FAQ
-                  </Link>
-                </p>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('home')}>HOME</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('codeeditor')}>API</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('contact')}>CONTACT US</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('faq')}>FAQ</a>
+                </span>
+               
               </div>
               {/* Useful links section */}
               <div className=" flex flex-col text-start">
                 <h6 className="mb-4   text-green-600 justify-center font-extrabold uppercase md:justify-start text-[18px]">
                   Useful links
                 </h6>
-                <p className="mb-4">
-                  <Link href="#" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    API DOCUMENTATION
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link href="#" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    TERMS & CONDITIONS
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link href="#" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    PRIVACY POLICY
-                  </Link>
-                </p>
-                <p>
-                  <Link href="#" className="text-slate-800 text-[14px] font-semibold hover:underline hover:text-green-600 ">
-                    Help
-                  </Link>
-                </p>
+               
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('codeeditor')}> API DOCUMENTATION</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('t&c')}>TERMS & CONDITIONS</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('privacy')}>PRIVACY POLICY</a>
+                </span>
+                <span className="mb-4 text-slate-800  text-[14px] font-semibold hover:underline hover:text-green-600">
+                  <a onClick={() => scrollToSection('help')}>HELP</a>
+                </span>
+                 
+               
+                
               </div>
               {/* Contact section */}
               <div className=" flex flex-col  text-start">

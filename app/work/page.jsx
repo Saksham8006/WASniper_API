@@ -60,30 +60,30 @@ const Work = () => {
             <div className="flex flex-row px-[12px] sm:px-[24px]">
 
 
-                <div className="hidden multistep-progress mt-[60px] ">
-                    <div className={`step ${step >= 1 ? 'active' : ''}  flex items-center justify-center w-[80px] h-[80px] bg-green-100/70 rounded-full `}>
+                <div className="hidden lg:block multistep-progress multistep-progresssss mt-[60px] ">
+                    <div className={`step ${step >= 1 ? 'active' : 'active'}  flex items-center justify-center w-[80px] h-[80px] bg-green-100/70 rounded-full `}>
                         <GrLogin className="text-[50px] " />
                     </div>
                     <div className="line"></div>
-                    <div className={`step ${step >= 2 ? 'active' : ''}`}>
+                    <div className={`step ${step >= 2 ? 'active' : 'active'}`}>
                         <PiScanBold className="text-[50px] " />
                     </div>
                     <div className="line"></div>
-                    <div className={`step ${step >= 3 ? 'active' : ''}`}>
+                    <div className={`step ${step >= 3 ? 'active' : 'active'}`}>
                         <BiSend className="text-[50px] " />
                     </div>
                 </div>
 
 
-                <ol className="relative  border-gray-200 my-[50px] ">
-                    <li className="mb-10 ms-[120px]">
+                <ol className="relative w-full  border-gray-200 my-[50px] ">
+                    <li className="mb-10 ms:[15px] lg:ms-[120px]">
 
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 pt-[10px]">
                             Create Account{" "}
 
                         </h3>
 
-                        {!show && step === 1 && current === 0 &&  (
+                        {/* {!show && step === 1 && current === 0 &&  ( */}
                             <div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">
                                     Unlock Pages of Power
@@ -92,20 +92,20 @@ const Work = () => {
                                     Dive into a multifunctional dashboard featuring interactive charts, a Kanban board, a dynamic calendar,
                                     and pre-order E-commerce & Marketing pages. Access all you need in one place for enhanced productivity and business success.</p>
 
-                                <div className="mt-2">
+                                {/* <div className="mt-2">
 
                                     <button type="button" onClick={handleNext} disabled={step === 3} className="text-green-500 border border-green-600 hover:bg-green-100/40  font-medium  text-sm px-5 py-2.5 me-2 mb-2 ">NEXT</button>
-                                </div>
+                                </div> */}
                             </div>
-                         )} 
+                         {/* )}  */}
                     </li>
-                    <li className="mb-10 ms-[120px]">
+                    <li className="mb-10 ms:[15px] lg:ms-[120px]">
 
-                        <h3 className={`mb-1 text-lg font-semibold text-gray-900 ${show ? "pt-[120px]" : "pt-[40px] "} `}>
+                        <h3 className={`mb-1 text-lg font-semibold text-gray-900 ${show ? "pt-[120px]" : "pt-[70px] "} `}>
                             Scan QR
                         </h3>
 
-                        {show && step === 2 && current===1 &&(
+                        {/* {show && step === 2 && current===1 &&( */}
                             <div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">
                                     Figma's QR Integration: Design Consistency
@@ -115,19 +115,19 @@ const Work = () => {
                                     ensuring seamless consistency and efficiency in our creative workflow.
                                 </p>
 
-                                <div className="mt-3">
+                                {/* <div className="mt-3">
                                     <button type="button" onClick={handlePrev} disabled={step === 1} className="text-red-500 border border-red-600 hover:bg-red-100/40 font-medium  text-sm px-5 py-2.5 me-2 mb-2 ">BACK</button>
                                     <button type="button" onClick={handleNext} disabled={step === 3} className="text-green-500 border border-green-600 hover:bg-green-100/40  font-medium  text-sm px-5 py-2.5 me-2 mb-2 ">NEXT</button>
-                                </div>
+                                </div> */}
                             </div>
-                        )}
+                        {/* )} */}
                     </li>
-                    <li className="ms-[120px]">
+                    <li className="ms:[15px] lg:ms-[120px]">
 
-                        <h3 className={`mb-1 text-lg font-semibold text-gray-900 relative ${show ? "pt-[100px]" : "pt-[50px] "} ${current===1 ? "pt-[60px]" : "pt-[181px] "}`}>
+                        <h3 className={`mb-1 text-lg font-semibold text-gray-900 relative ${show ? "pt-[100px]" : "pt-[90px] "} ${current===1 ? "pt-[60px]" : "pt-[181px] "}`}>
                             Start Sending Messages
                         </h3>
-                        {show && step === 3 && current === 2 && (
+                        {/* {show && step === 3 && current === 2 && ( */}
                             <div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">
                                     Effortless Messaging: Tailwind CSS Web Components
@@ -138,13 +138,13 @@ const Work = () => {
                                 </p>
 
 
-                                <div className="mt-3">
+                                {/* <div className="mt-3">
                                     <AnimatedButton />
 
                                     <button type="button" onClick={handlePrev} disabled={step === 2} className="text-red-500 border border-red-600 hover:bg-red-100/40 font-medium  text-sm px-5 py-2.5 me-2 mb-2 ">BACK</button>
-                                </div>
+                                </div> */}
                             </div>
-                        )}
+                        {/* )} */}
                     </li>
                 </ol>
 
