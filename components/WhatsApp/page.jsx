@@ -28,11 +28,11 @@ const WhatsApp = () => {
     
    
     return (
-        // <div>
+        <div className='bottom-[20px] left-[150px]'>
 
             <a
                 href="https://wa.me/+919084804158"
-                className={`whatsapp_float  ${showButton ? 'block' : 'hidden'}`}
+                className={`whatsapp_float  ${showButton ? 'block' : 'hidden'} `}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -41,7 +41,7 @@ const WhatsApp = () => {
             </a>
 
 
-        // </div>
+         </div>
     )
 }
 

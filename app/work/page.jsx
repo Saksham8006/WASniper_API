@@ -47,7 +47,7 @@ const Work = () => {
 
 
     return (
-        <div className='max-w-[1366px] mx-auto px-[24px]'>
+        <div className='max-w-[1366px] mx-auto px-[24px] py-[96px]'>
 
             <div className="">
                 <h2 className='my-[25px] text-[28px] font-bold text-center'>How does the pricing model work for this platform?</h2>
