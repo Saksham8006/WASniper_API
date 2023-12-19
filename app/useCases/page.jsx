@@ -106,7 +106,7 @@ const Usecases = () => {
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
                 
-                  <img src="/images/chatbots.webp" alt="Chatbot Image"/>
+                  <img src="/images/chatbots.webp" alt="Chatbot Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] font-bold mt-10 text-center  md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -125,7 +125,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/remarketing.webp" alt="Remarketing Image"/>
+                  <img src="/images/remarketing.webp" alt="Remarketing Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -144,7 +144,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/customerSupport.webp" className="Customer Support Image"/>
+                  <img src="/images/customerSupport.webp" alt="Customer Support Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -163,7 +163,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/multimedia.webp" className="Multimedia Image"/>
+                  <img src="/images/multimedia.webp" alt="Multimedia Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -182,7 +182,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[33%] mb-6 h-[30%] ">
-                  <img src="/images/notifications.webp" alt="Notification Image"/>
+                  <img src="/images/notifications.webp" alt="Notification Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -200,7 +200,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/reminders.webp" alt="Reminders Image"/>
+                  <img src="/images/reminders.webp" alt="Reminders Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -218,7 +218,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/authentication.webp" alt="Authentication"/>
+                  <img src="/images/authentication.webp" alt="Authentication" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -236,7 +236,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/customerCommunication.webp" alt="Effective communication with customers"/>
+                  <img src="/images/customerCommunication.webp" alt="Effective communication with customers" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -254,7 +254,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/automation.webp" className="Automation"/>
+                  <img src="/images/automation.webp" alt="Automation" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
                   <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
