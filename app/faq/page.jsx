@@ -50,6 +50,7 @@ const Section9 = () => {
                                         What is WAsnipper?
                                     </h3>
                                     <button
+                                    type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 0 && open ? 'rotate-180 duration-500' : ''
                                             }`}
@@ -90,6 +91,7 @@ const Section9 = () => {
                                         What can the WAsniper do?
                                     </h3>
                                     <button
+                                    type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 1 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}
@@ -125,6 +127,7 @@ const Section9 = () => {
                                         Ensuring Stability and Security with WAsniper.
                                     </h3>
                                     <button
+                                    type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 2 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}
@@ -156,6 +159,7 @@ const Section9 = () => {
                                         Can I send bulk messages?
                                     </h3>
                                     <button
+                                    type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 3 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}

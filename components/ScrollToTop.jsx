@@ -33,6 +33,7 @@ const ScrollToTopButton = () => {
 
   return (
     <button
+    type='button'
       className={`fixed right-5 bottom-4 z-10 ${showButton ? 'block' : 'hidden'}  text-green-600 text-4xl hover:text-5xl py-2 px-4 rounded-full transition-all`}
       onClick={scrollToTop}
     >
