@@ -34,7 +34,7 @@ const Tutorials = () => {
                 <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                     {/* Pricing Card */}
                     <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-green-600 hover:scale-105 duration-500 hover:bg-green-100/40 shadow ">
-                        <h3 className="mb-4 text-2xl font-semibold">How to Send WhatsApp Messages</h3>
+                        <h3 className="mb-4 text-xll font-semibold">How to Send WhatsApp Messages</h3>
 
                         {/* List */}
                         <ul role="list" className="mb-8 space-y-4 text-left">
@@ -219,7 +219,7 @@ const Tutorials = () => {
                     </div>
                     {/* Pricing Card */}
                     <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border  border-green-600 hover:scale-105 duration-500 hover:bg-green-100/40 shadow ">
-                        <h3 className="mb-4 text-2xl font-semibold">How to Recieve WhatsApp Messages</h3>
+                        <h3 className="mb-4 text-xll font-semibold">How to Recieve WhatsApp Messages</h3>
 
                         {/* List */}
                         <ul role="list" className="mb-8 space-y-4 text-left">
@@ -293,7 +293,7 @@ const Tutorials = () => {
                     </div>
                     {/* Pricing Card */}
                     <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-green-600 hover:scale-105 duration-500 hover:bg-green-100/40 shadow ">
-                        <h3 className="mb-4 text-2xl font-semibold">How to make WhatsApp chatbot</h3>
+                        <h3 className="mb-4 text-xll font-semibold">How to make WhatsApp chatbot</h3>
 
                         {/* List */}
                         <ul role="list" className="mb-8 space-y-4 text-left">

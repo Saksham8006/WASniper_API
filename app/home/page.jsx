@@ -7,8 +7,8 @@ const Home = () => {
     return (
 
         <>
-            <div className="min-h-[70vh] py-[250px] mx-auto " style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'cover' }}>
-                <div className="px-[25px] ">
+            <div className="min-h-[70vh] py-[250px] mx-auto" style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'cover' }}>
+                <div className="px-[25px] xs:translate-y-[-50px] lg:translate-y-[-20px]">
                     <div className="flex flex-col justify-center items-center mb-[20px]">
                         <h2 className='mb-[15px] text-[42px] text-green-600 font-bold text-center'>WhatsApp Api</h2>
 
@@ -31,7 +31,7 @@ const Home = () => {
 
                 {/* images part */}
 
-                <div className="flex flex-wrap gap-y-[20px] px-[24px] items-center justify-center gap-x-[50px]  mt-[150px]   pb-[70px] max-w-[1366px] mx-auto">
+                <div className="flex flex-wrap gap-y-[20px] px-[24px] items-center justify-center gap-x-[50px] sm:mt-[30px] lll:mt-[160px] xll:mt-[60px]   pb-[70px] max-w-[1366px] mx-auto">
 
 
 

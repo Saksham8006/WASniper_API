@@ -74,7 +74,7 @@ const Footer = () => {
             </div>
 
             {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-start gap-y-[20px]"> */}
-            <div className="flex flex-col md:flex-row gap-x-[25px] xl:gap-x-[35px] 2xl:gap-x-[55px] justify-start gap-y-[20px] mt-[30px]">
+            <div className="flex flex-col md:flex-row gap-x-[25px] xl:gap-x-[35px] xll:gap-x-[55px] justify-start gap-y-[20px] mt-[30px]">
               {/* Products section */}
               <div className=" flex flex-col text-start">
                 <h4 className="mb-4  text-green-600 justify-center text-start font-extrabold uppercase md:justify-start text-[18px]">

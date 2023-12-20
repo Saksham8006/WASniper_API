@@ -20,7 +20,7 @@ const Section9 = () => {
     return (
         <>
             {/* component */}
-            <div className="2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4 bg-green-100/40 my-[100px]">
+            <div className="xll:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4 bg-green-100/40 my-[100px]">
                 <div className="max-w-[1366px] mx-auto ">
                     <div className="flex flex-col items-center justify-center">
                         <h2 className="text-center text-slate-800 text-[32px] md:text-[38px] ls:text-[40px] lm:text-[42px] font-[900] leading-[1.375em] md:leading-[1.211em] lm:leading-[1.333em] tracking-[-.024em] md:tracking-[-.042em] mb-[16px] lm:mb-[24px]">
@@ -50,7 +50,7 @@ const Section9 = () => {
                                         What is WAsnipper?
                                     </h3>
                                     <button
-                                    type='button'
+                                        type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 0 && open ? 'rotate-180 duration-500' : ''
                                             }`}
@@ -91,7 +91,7 @@ const Section9 = () => {
                                         What can the WAsniper do?
                                     </h3>
                                     <button
-                                    type='button'
+                                        type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 1 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}
@@ -127,7 +127,7 @@ const Section9 = () => {
                                         Ensuring Stability and Security with WAsniper.
                                     </h3>
                                     <button
-                                    type='button'
+                                        type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 2 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}
@@ -159,7 +159,7 @@ const Section9 = () => {
                                         Can I send bulk messages?
                                     </h3>
                                     <button
-                                    type='button'
+                                        type='button'
                                         aria-label="toggle"
                                         className={`text-white  bg-green-700 rounded-full p-3 cursor-pointer ${current === 3 && open ? 'rotate-180 duration-500 ' : ''
                                             }`}

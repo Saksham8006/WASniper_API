@@ -17,7 +17,7 @@ const CodeEditor = () => {
                         You can use any programmable language to easily .</p>
                 </div>
 
-                <iframe loading="lazy" class="w-100 border-none" frameborder="0" scrolling="no" width="100%"
+                <iframe loading="lazy" class="w-100 border-none" scrolling="yes" frameborder="0"  width="100%"  
                     height="600px" src="https://codeeditor-new.netlify.app/" title="API Documentation"></iframe>
             </div>
         </div>
