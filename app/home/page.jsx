@@ -9,8 +9,8 @@ const Home = () => {
         <>
             <div className="min-h-[70vh] py-[250px] mx-auto " style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'cover' }}>
                 <div className="px-[25px] ">
-                    <div className="flex flex-col justify-center items-center ">
-                        <h2 className='my-[15px] text-[42px] text-green-600 font-bold text-center'>WhatsApp Api</h2>
+                    <div className="flex flex-col justify-center items-center mb-[20px]">
+                        <h2 className='mb-[15px] text-[42px] text-green-600 font-bold text-center'>WhatsApp Api</h2>
 
                         <span className="text-green-600 bg-green-100/40 p-1 rounded-[22px] text-center">for medium and large businesses</span>
 
@@ -19,7 +19,7 @@ const Home = () => {
                         <p className="text-center">Send and receive messages using HTTP requests.</p>
 
                         <div className="flex flex-col sm:flex-row mx-auto justify-center mt-[30px]">
-                            <button type="button" className="text-white bg-green-500 hover:bg-green-600  font-medium rounded-lg
+                            <button type="button" className="text-white bg-green-600 hover:bg-green-700  font-medium rounded-lg
                              text-[20px] px-5 py-2.5 me-2 mb-2 flex items-center"><LuPlane className="mr-2" />Free trial</button>
                             <button type="button" className=" bg-white hover:bg-green-600 duration-500  border border-green-600 font-medium rounded-lg
                              text-[20px] px-5 py-2.5 me-2 mb-2 text-green-600 hover:text-white flex items-center"><IoDocumentOutline className="mr-2" />Api Documentation</button>
