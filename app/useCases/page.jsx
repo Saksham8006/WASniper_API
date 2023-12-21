@@ -30,35 +30,35 @@ const Usecases = () => {
 
       <div className='max-w-[1366px] mx-auto w-full py-[106px]'>
         <div>
-            <div className="flex flex-col items-center justify-center">
-                        <h2 className="text-center text-slate-800 text-[32px] md:text-[38px] ls:text-[40px] lm:text-[42px] font-[900] leading-[1.375em] md:leading-[1.211em] lm:leading-[1.333em] tracking-[-.024em] md:tracking-[-.042em] mb-[16px] lm:mb-[24px]">
-                           <span className="text-green-600"> Powering</span> Business <span className="text-green-600">Connectivity</span> 
-                        </h2>
-                        <div className="relative mr-[42%]">
-                            <svg
-                                className="hidden lg:block absolute lg:bottom-0 lg:left-[-70px] xl:left-[-10px]"
-                                width="225"
-                                height="16"
-                                viewBox="0 0 225 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path d="M224.931 15.1987C151.063 1.40293 47.4825 6.23252 4.92601 10.3718L0.241161 6.21004C91.4615 -6.66766 188.043 6.83677 224.931 15.1987Z" fill="#2b784c"></path>
-                            </svg>
-                        </div>
-                        <div className="relative ml-[150px]">
-                            <svg
-                                className="hidden lg:block absolute lg:bottom-0 lg:left-[10px] xl:left-[-10px]"
-                                width="225"
-                                height="16"
-                                viewBox="0 0 225 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path d="M224.931 15.1987C151.063 1.40293 47.4825 6.23252 4.92601 10.3718L0.241161 6.21004C91.4615 -6.66766 188.043 6.83677 224.931 15.1987Z" fill="#2b784c"></path>
-                            </svg>
-                        </div>
-                    </div>
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-center text-slate-800 text-[32px] md:text-[38px] ls:text-[40px] lm:text-[42px] font-[900] leading-[1.375em] md:leading-[1.211em] lm:leading-[1.333em] tracking-[-.024em] md:tracking-[-.042em] mb-[16px] lm:mb-[24px]">
+              <span className="text-green-600"> Powering</span> Business <span className="text-green-600">Connectivity</span>
+            </h2>
+            <div className="relative mr-[42%]">
+              <svg
+                className="hidden lg:block absolute lg:bottom-0 lg:left-[-70px] xl:left-[-10px]"
+                width="225"
+                height="16"
+                viewBox="0 0 225 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M224.931 15.1987C151.063 1.40293 47.4825 6.23252 4.92601 10.3718L0.241161 6.21004C91.4615 -6.66766 188.043 6.83677 224.931 15.1987Z" fill="#2b784c"></path>
+              </svg>
+            </div>
+            <div className="relative ml-[150px]">
+              <svg
+                className="hidden lg:block absolute lg:bottom-0 lg:left-[10px] xl:left-[-10px]"
+                width="225"
+                height="16"
+                viewBox="0 0 225 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M224.931 15.1987C151.063 1.40293 47.4825 6.23252 4.92601 10.3718L0.241161 6.21004C91.4615 -6.66766 188.043 6.83677 224.931 15.1987Z" fill="#2b784c"></path>
+              </svg>
+            </div>
+          </div>
 
           <p className="mb-5 mt-[30px] font-bold text-slate-800 sm:text-xl useCasesColor z-10 max-w-[1366px] mx-auto w-[68%] text-center">
             WAsniper - the ultimate API for WhatsApp, elevating businesses and programmers. Seamlessly integrates into diverse systems, enabling swift messaging,
@@ -69,7 +69,7 @@ const Usecases = () => {
 
         <div className="flex flex-col md:flex-row px-[24px] gap-x-[20px] my-[60px] w-full">
           <div className="w-full md:w-[58.66666667%]">
-            <img src="./images/usecaseimg.webp" alt="use cases image" className="h-auto w-[90%]"/>
+            <img src="./images/usecaseimg.webp" alt="use cases image" className="h-auto w-[90%]" width="500" height="300" />
           </div>
 
           <div className="w-full md:w-[58.33%] md:mt-[70px]">
@@ -104,10 +104,10 @@ const Usecases = () => {
           <div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-[24px] gap-x-[30px] gap-y-[20px]">
             <div className="flex-shrink-0 w-full mt-14 ">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
-                <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                
-                  <img src="/images/chatbots.webp" alt="Chatbot Image" className="w-auto h-auto"/>
+                <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%]">
+                  <img src="/images/chatbots.webp" alt="Chatbot Image" className="w-full h-auto" width="500" height="300" />
                 </div>
+
                 <div className="h-auto">
                   <h2 className="text-[24px] font-bold mt-10 text-center  md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Chatbots
@@ -125,7 +125,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/remarketing.webp" alt="Remarketing Image" className="w-auto h-auto"/>
+                  <img src="/images/remarketing.webp" alt="Remarketing Image" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -133,7 +133,7 @@ const Usecases = () => {
                   </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
-                    <span  className="flex text-center">{text1}</span>
+                    <span className="flex text-center">{text1}</span>
 
 
                   </div>
@@ -144,7 +144,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/customerSupport.webp" alt="Customer Support Image" className="w-auto h-auto"/>
+                  <img src="/images/customerSupport.webp" alt="Customer Support Image" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -163,7 +163,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/multimedia.webp" alt="Multimedia Image" className="w-auto h-auto"/>
+                  <img src="/images/multimedia.webp" alt="Multimedia Image" className="w-auto h-auto" width="500" height="300"  />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -182,7 +182,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[33%] mb-6 h-[30%] ">
-                  <img src="/images/notifications.webp" alt="Notification Image" className="w-auto h-auto"/>
+                  <img src="/images/notifications.webp" alt="Notification Image" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -200,7 +200,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/reminders.webp" alt="Reminders Image" className="w-auto h-auto"/>
+                  <img src="/images/reminders.webp" alt="Reminders Image" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -218,7 +218,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/authentication.webp" alt="Authentication" className="w-auto h-auto"/>
+                  <img src="/images/authentication.webp" alt="Authentication" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -236,7 +236,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/customerCommunication.webp" alt="Effective communication with customers" className="w-auto h-auto"/>
+                  <img src="/images/customerCommunication.webp" alt="Effective communication with customers" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
@@ -254,7 +254,7 @@ const Usecases = () => {
             <div className="flex-shrink-0 w-full mt-14">
               <div className="shadow-sm p-8 mt-10 bg-green-100/40 rounded-3xl relative h-full ">
                 <div className="m-auto absolute bottom-[82%] right-[38%] md:right-[37%] mb-6 h-[30%] ">
-                  <img src="/images/automation.webp" alt="Automation" className="w-auto h-auto"/>
+                  <img src="/images/automation.webp" alt="Automation" className="w-auto h-auto" width="500" height="300" />
                 </div>
                 <div className="h-auto">
                   <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">

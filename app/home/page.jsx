@@ -7,7 +7,7 @@ const Home = () => {
     return (
 
         <>
-            <div className="min-h-[70vh] py-[250px] mx-auto" style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'contain', maxWidth:"100%", height:"auto", backgroundRepeat:"no-repeat" }}>
+            <div className="min-h-[70vh] py-[250px] mx-auto" style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'contain', maxWidth: "100%", height: "auto", backgroundRepeat: "no-repeat" }}>
                 <div className="px-[25px] xs:translate-y-[-50px] lg:translate-y-[-20px]">
                     <div className="flex flex-col justify-center items-center mb-[20px]">
                         <h2 className='mb-[15px] text-[42px] text-green-600 font-bold text-center'>WhatsApp Api</h2>
@@ -18,12 +18,24 @@ const Home = () => {
 
                         <p className="text-center">Send and receive messages using HTTP requests.</p>
 
-                        <div className="flex flex-col sm:flex-row mx-auto justify-center mt-[30px]">
+                        {/* <div className="flex flex-col sm:flex-row mx-auto justify-center mt-[30px]">
                             <button type="button" className="text-white bg-green-600 hover:bg-green-700  font-medium rounded-lg
                              text-[20px] px-5 py-2.5 me-2 mb-2 flex items-center" aria-label="Start Free Trial"><LuPlane className="mr-2" />Free trial</button>
                             <button type="button" className=" bg-white hover:bg-green-600 duration-500  border border-green-600 font-medium rounded-lg
                              text-[20px] px-5 py-2.5 me-2 mb-2 text-green-600 hover:text-white flex items-center" aria-label="Read Api Documentation"><IoDocumentOutline className="mr-2" />Api Documentation</button>
+                        </div> */}
+
+                        <div className="flex flex-col sm:flex-row mx-auto justify-center mt-[30px]">
+                            <button type="button" className="text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-[20px] px-5 py-2.5 me-2 mb-2 flex items-center" aria-label="Start Free Trial">
+                                <LuPlane className="mr-2" />
+                                Free trial
+                            </button>
+                            <button type="button" className="bg-green-600 hover:bg-green-700 duration-500 border border-green-600 font-medium rounded-lg text-[20px] px-5 py-2.5 me-2 mb-2 text-white flex items-center" aria-label="Read Api Documentation">
+                                <IoDocumentOutline className="mr-2" />
+                                Api Documentation
+                            </button>
                         </div>
+
 
                     </div>
                 </div>
