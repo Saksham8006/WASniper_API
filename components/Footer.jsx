@@ -77,20 +77,20 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row gap-x-[25px] xl:gap-x-[35px] xll:gap-x-[55px] justify-start gap-y-[20px] mt-[30px]">
               {/* Products section */}
               <div className=" flex flex-col text-start">
-                <h4 className="mb-4  text-green-600 justify-center text-start font-extrabold uppercase md:justify-start text-[18px]">
+                <h3 className="mb-4  text-green-600 justify-center text-start font-extrabold uppercase md:justify-start text-[18px]">
                   WASniper
-                </h4>
+                </h3>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('home')}>HOME</h5>
+                  <h4 onClick={() => scrollToSection('home')}>HOME</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('codeeditor')}>API</h5>
+                  <h4 onClick={() => scrollToSection('codeeditor')}>API</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('contact')}>CONTACT US</h5>
+                  <h4 onClick={() => scrollToSection('contact')}>CONTACT US</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('faq')}>FAQ</h5>
+                  <h4 onClick={() => scrollToSection('faq')}>FAQ</h4>
                 </span>
 
               </div>
@@ -101,16 +101,16 @@ const Footer = () => {
                 </h4>
 
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('codeeditor')}> API DOCUMENTATION</h5>
+                  <h4 onClick={() => scrollToSection('codeeditor')}> API DOCUMENTATION</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('t&c')}>TERMS & CONDITIONS</h5>
+                  <h4 onClick={() => scrollToSection('t&c')}>TERMS & CONDITIONS</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('privacy')}>PRIVACY POLICY</h5>
+                  <h4 onClick={() => scrollToSection('privacy')}>PRIVACY POLICY</h4>
                 </span>
                 <span className="mb-4 text-slate-800 cursor-pointer text-[14px] font-semibold hover:underline hover:text-green-600">
-                  <h5 onClick={() => scrollToSection('help')}>HELP</h5>
+                  <h4 onClick={() => scrollToSection('help')}>HELP</h4>
                 </span>
 
 

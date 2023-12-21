@@ -20,9 +20,9 @@ const Home = () => {
 
                         <div className="flex flex-col sm:flex-row mx-auto justify-center mt-[30px]">
                             <button type="button" className="text-white bg-green-600 hover:bg-green-700  font-medium rounded-lg
-                             text-[20px] px-5 py-2.5 me-2 mb-2 flex items-center"><LuPlane className="mr-2" />Free trial</button>
+                             text-[20px] px-5 py-2.5 me-2 mb-2 flex items-center" aria-label="Start Free Trial"><LuPlane className="mr-2" />Free trial</button>
                             <button type="button" className=" bg-white hover:bg-green-600 duration-500  border border-green-600 font-medium rounded-lg
-                             text-[20px] px-5 py-2.5 me-2 mb-2 text-green-600 hover:text-white flex items-center"><IoDocumentOutline className="mr-2" />Api Documentation</button>
+                             text-[20px] px-5 py-2.5 me-2 mb-2 text-green-600 hover:text-white flex items-center" aria-label="Read Api Documentation"><IoDocumentOutline className="mr-2" />Api Documentation</button>
                         </div>
 
                     </div>

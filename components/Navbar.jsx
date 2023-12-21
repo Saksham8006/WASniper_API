@@ -96,7 +96,7 @@ const Navbar = () => {
           />
         </a>
 
-        <button type='button' onClick={toggleMenu}>
+        <button type='button' onClick={toggleMenu} aria-label="List Menu">
           { !isOpen ? (
           <IoMenuSharp className='text-[35px] border border-green-600 p-1 text-slate-800 '/>
           ):(

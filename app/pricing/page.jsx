@@ -182,6 +182,7 @@ const Pricing = () => {
                       <button
                         type="button"
                         className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-[4px] border border-green-700 bg-white text-green-800 shadow-sm hover:bg-green-600 hover:text-white disabled:opacity-50 disabled:pointer-events-none"
+                        aria-label="Start Free Trial"
                       >
                         Start free trial
                       </button>
@@ -356,6 +357,7 @@ const Pricing = () => {
                       <button
                         type="button"
                         className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-[4px] border border-transparent bg-green-600 text-white hover:bg-white hover:text-green-700 hover:border-green-800 disabled:opacity-50 disabled:pointer-events-none "
+                        aria-label="Start Free Trial"
                       >
                         Start free trial
                       </button>

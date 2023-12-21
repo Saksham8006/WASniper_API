@@ -206,7 +206,7 @@ const Section9 = () => {
 
                 <div className='flex justify-center my-[20px]'
                 >
-                    <button type="button" className="text-slate-800 text-center  bg-green-500 hover:bg-green-600 font-medium rounded-[4px] text-[20px] px-8 py-4 me-2 mb-2 flex items-center"><FiPhoneCall className='mr-2' />Contact us</button>
+                    <button type="button" className="text-slate-800 text-center  bg-green-500 hover:bg-green-600 font-medium rounded-[4px] text-[20px] px-8 py-4 me-2 mb-2 flex items-center" aria-label="Contact us"><FiPhoneCall className='mr-2' />Contact us</button>
                 </div>
             </div>
         </>

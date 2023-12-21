@@ -14,6 +14,7 @@ const WhatsApp = () => {
         className={`whatsapp_float  ${showButton ? 'block' : 'hidden'}`}
         target='_blank'
         rel='noopener noreferrer'
+        aria-label="Contact us on WhatsApp"
       >
         <BsWhatsapp className='fa fa-whatsapp whatsapp-icon text-green-600 text-[40px] hover:scale-125 duration-500' />
       </a>

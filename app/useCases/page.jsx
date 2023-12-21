@@ -93,12 +93,12 @@ const Usecases = () => {
 
 
         <div className=" py-20 ">
-          <h1
+          <h2
             className="w-full md:w-[70%] mx-auto font-[900] text-center  text-[32px] md:text-[32px] ls:text-[45px] leading-[1.375em] md:leading-[1.211em]
                lm:leading-[1.333em] lm:mb-[24px] tracking-[-.020] md:tracking-[-.010em] "
           >
             Unlocking the Potential: WhatsApp Business API's Dynamic Use Cases
-          </h1>
+          </h2>
 
           {/* <div className=" w-[85%] md:w-full mx-auto text-center flex flex-wrap justify-center  items-stretch gap-6 "> */}
           <div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-[24px] gap-x-[30px] gap-y-[20px]">
@@ -109,9 +109,9 @@ const Usecases = () => {
                   <img src="/images/chatbots.webp" alt="Chatbot Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] font-bold mt-10 text-center  md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] font-bold mt-10 text-center  md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Chatbots
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="text-center flex text-[20px]">{initialContent}</span>
@@ -128,9 +128,9 @@ const Usecases = () => {
                   <img src="/images/remarketing.webp" alt="Remarketing Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Remarketing
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span  className="flex text-center">{text1}</span>
@@ -147,9 +147,9 @@ const Usecases = () => {
                   <img src="/images/customerSupport.webp" alt="Customer Support Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Customer Support
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text2}</span>
@@ -166,9 +166,9 @@ const Usecases = () => {
                   <img src="/images/multimedia.webp" alt="Multimedia Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Multimedia Messages
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text3}</span>
@@ -185,9 +185,9 @@ const Usecases = () => {
                   <img src="/images/notifications.webp" alt="Notification Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Notifications
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text4}</span>
@@ -203,9 +203,9 @@ const Usecases = () => {
                   <img src="/images/reminders.webp" alt="Reminders Image" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Reminders
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text5}</span>
@@ -221,9 +221,9 @@ const Usecases = () => {
                   <img src="/images/authentication.webp" alt="Authentication" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Verification & Authentication
-                  </h3>
+                  </h2>
                   <div className="px-4 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text6}</span>
@@ -239,9 +239,9 @@ const Usecases = () => {
                   <img src="/images/customerCommunication.webp" alt="Effective communication with customers" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Customer Comminucation
-                  </h3>
+                  </h2>
                   <div className="px-3 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text7}</span>
@@ -257,9 +257,9 @@ const Usecases = () => {
                   <img src="/images/automation.webp" alt="Automation" className="w-auto h-auto"/>
                 </div>
                 <div className="h-auto">
-                  <h3 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
+                  <h2 className="text-[24px] mt-10 text-center font-bold md:text-[24px] ls:text-[24px] lm:text-[24px] lm:leading-[35px] leading-[35px] md:leading-[35px] tracking-[-.018em] ">
                     Automation
-                  </h3>
+                  </h2>
                   <div className="px-2 my-2 text-center md:text-start text-[20px] leading-[1.667em] tracking-[-.005em] font-[400] text-[#222]">
 
                     <span className="flex text-center">{text8}</span>
