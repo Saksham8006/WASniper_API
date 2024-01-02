@@ -1,17 +1,16 @@
-// next.config.js
+const webpack = require('webpack');
+
 module.exports = {
   webpack: (config, { isServer }) => {
+    // Apply the IgnorePlugin only on the client side
     if (!isServer) {
-      // Configure client-specific optimizations
-      config.optimization.splitChunks.cacheGroups = {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all',
-        },
-      };
+      config.plugins.push(
+        new webpack.IgnorePlugin({
+          resourceRegExp: /^https:\/\/ultramsg\.com\/assets\//,
+        })
+      );
     }
 
-    return config;
-  },
+    return config;
+  },
 };
